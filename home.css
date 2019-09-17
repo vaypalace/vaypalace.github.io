@@ -1,0 +1,424 @@
+/* css HOME */
+/*  */
+.divfull{
+    background-color: black;
+}
+.header{
+    width:100%;
+    height:200px;
+    background-color: black;
+    border: 4px solid gold;
+}
+header h1{
+    text-align: center;
+    margin-top: -10%;
+    font-size: 53px;
+    color: gold;
+}
+header p{
+    text-align: center;
+    margin-top: -2%;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: gold;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav{
+    width: 100%;
+    background-color:black;
+    overflow: auto;
+}
+nav ul{
+    list-style: none;
+    float: left;
+    overflow: auto;
+    margin: 0px;
+    padding-left: 350px;
+}
+nav ul li{
+    display: block;
+   padding: 5px 10px 5px 10px;
+   float: left;
+   margin: 0px;
+}
+nav ul li:hover{
+    background:gold;
+}
+nav ul li a{
+    color: lawngreen;
+    text-decoration:none; 
+    font-size: 40px;
+    font-family: 'Courier New', Courier;
+}
+nav ul li a:hover{
+    text-decoration: overline;
+    color:black;
+}
+/*  */
+.sidebar{
+    width: 200px;
+    height: 1500px;
+    float: left;
+    background-color:black;
+}
+.promo{
+    float: right;
+    width: 200px;
+    height: 800px;
+    margin-top: 300px;
+    padding-top: 400px;
+    background-color: black;
+}
+.content{
+    height: 1500px;
+    background-image: url(gambar/b1.jpg);
+}
+.promosipertama{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+
+}
+.promosipertama img{
+    width: 800px;
+    height: 300px;
+    margin-left: 5%;
+    
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+.text1 {
+    background-color:black;
+    color:gold;
+    font-size: 20px;
+    padding: 40px 72px;
+    border-radius: 15px 30px;
+    margin-top:10%;
+
+}
+
+.promosipertama:hover .img {
+    opacity: 0.50;
+}
+.promosipertama:hover .middle{
+    opacity: 1;
+}
+.limited{
+    
+    width: 900px;
+    
+}
+#h1{
+    background-color:black;
+    color: gold;
+    font-size: 20px;
+    padding: 40px 32px;
+    border-radius:3px 50px;
+    text-align: right;
+    border-bottom :  4px solid greenyellow;
+    border-right:  4px solid greenyellow;
+    border-top :  4px solid greenyellow;
+}
+
+.limited2{
+    width: 800px;
+    margin-top: 350px;
+    margin-left: 400px;
+}
+  
+#h2{
+    background-color:black;
+    color: gold;
+    font-size: 20px;
+    padding: 40px 32px;
+    border-radius:3px 50px;
+    text-align: left;
+    border-bottom :  4px solid greenyellow;
+    border-left:  4px solid greenyellow;
+    border-top :  4px solid greenyellow;
+}
+.menupromo{
+    margin:5px;
+    border:gold 2px solid;
+    padding: 2px;
+    font-size: 18px;
+    overflow: auto;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    float:left;
+
+}
+.menupromo img{
+    width: 190px;
+    height: 190px;
+    margin: 2px;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    background-color:greenyellow;
+    overflow: hidden;
+    width: 0;
+    height: 700px;
+    transition: .5s ease;
+  }
+  .menupromo:hover .overlay{
+      width: 180px;
+      height: 100px;
+      position: absolute;
+      border: 3px solid gold;
+  }
+  .text {
+    white-space: nowrap; 
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+
+.footer{
+    height:300px;
+    background-color:black;
+    border: 2px solid gold;
+    
+}
+.menusekunder{
+    margin-left: 100px;
+    float: left;
+}
+.menusekunder li{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.menusekunder a{
+    text-decoration:none;
+    color:gold;
+}
+.menusekunder a:hover{
+    text-decoration-line: line-through;
+    color: greenyellow;
+}
+.gmbrkaki{
+   border: 3px solid gold;
+   border-radius: 50%;
+   margin-left: 200px;
+   
+}
+.kontak{
+    float: right;
+    margin-right: 100px;
+
+   
+}
+.kontak li{
+    padding-top: 5px;
+}
+.kontak a{
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+}
+.kontak a:hover{
+    color: greenyellow;
+    text-decoration-line: line-through;
+}
+.kontak li img{
+    width: 50px;
+    height: 50px;
+}
+h1{
+    color: gold;
+
+}
+h2{
+    color: gold;
+}
+h4{
+    font-size: 19px;
+    color: gold;
+}
+p{
+    color: gold;
+    font-size: 20px;
+}
+
+
+
+/* CSS untuk ABOUT */
+.isiabout{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    
+}
+.visi{
+    background-image:url(gambar/bak1.jpg);
+    width: 550px;
+    height: 600px;
+    margin-left: 27%;
+    
+}
+.visi h3{
+    text-align: center;
+    font-size: 20px;
+    color: chartreuse;
+    border-bottom: 4px solid greenyellow;
+    padding-top: 10px;
+    
+}
+.visi p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+
+/* end css about */
+/* CSS buat contact */
+.isicontact{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.jumbotron { 
+    color: gold;
+    text-decoration: none;
+}
+.jumbotron li {
+    text-decoration: none;
+}
+.jumbotron img{
+    height: 80px;
+    width: 80px;
+}
+.jumbotron a{
+    color: gold;
+    text-decoration: none;
+}
+#jumbotron{
+    text-align: center;
+
+}
+.formulir{
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+.formulir label{
+  
+    color: gold;
+}
+#h2form{
+    margin-top: 90px;
+    padding-left: 250px;
+}
+/* end css contact */
+/* CSS buat menu */
+.bgmenu{
+    background-image: url(gambar/b1.jpg);
+    width: 100%;
+    height: 100%;
+    
+}
+.accordion {
+    background-color:rgb(56, 55, 45);
+    color:gold;
+    cursor: pointer;
+    padding: 5px;
+    width: 1000px;
+    height: 50px;
+    text-align:center;
+    outline: none;
+    font-size: 20px;
+    margin-left: 100px;
+    transition: 0.4s;
+    border-radius: 30px 30px;
+    border: 2px solid goldenrod;;
+   
+}
+  
+.active, .accordion:hover {
+    background-color: goldenrod;
+    color: black;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+  
+.panel {
+    text-decoration: none;
+    padding: 0 18px;
+    background-color:silver;
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    height: 300px;
+    width: 900px;
+    margin-left: 200px;
+    
+}
+.panel ul{
+    text-decoration: none;
+}
+
+.panel ul li{
+    text-decoration: none;
+    font-size: 20px;
+   
+   
+}
+#sambutan{
+    background-color: black;
+    border-radius : 13px 70px; 
+    border: 5px solid chartreuse;
+    height: 150px;
+    width: 800px;
+    margin-left: 250px;
+}
+#hidangan{
+font-size: 30px;
+    color:gold;
+text-align: center;
+}
+#hidangan2{
+font-size: 20px;
+color:gold;
+text-align: center;
+}
+#jalan{
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid chartreuse;
+    text-align: center;
+}
+/* end css menu */

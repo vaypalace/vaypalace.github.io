@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vay palace</title>
+    <link rel="stylesheet" href="home.css">
+    <meta type="description" content="nikmatilah keindahan alam dan ajaibnya keindahan manusia">
+
+</head>
+<body>
+    <div class="bgmenu">
+        <div class="header">
+            <img src="gambar/logo.jpg" alt="" id="logo">
+            <header>
+                <h1>VAY PALACE</h1>
+                <p>bersantailah dengan keindahan alam buatan</p>
+            </header>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+       
+        <br><br><br>
+         <!-- menu hidangan -->
+        <div id="sambutan">
+        <h1 id="hidangan">NIKMATILAH HIDANGAN KAMI</h1>
+        <h2 id="hidangan2">jangan sampai kehabisan ya</h2>
+        </div> 
+        
+        <br><br>
+        
+        <button class="accordion">NASI</button>
+        <div class="panel">
+           <ul>
+               <li>NASI KUNING</li>
+               <li>NASI GORENG</li>
+               <li>NASI GORENG SPESIAL</li>
+               <li>NASI KUCING</li>
+               <li>NASI RAWON</li>
+               <li>NASI PECEL</li>
+               <li>NASI JAGUNG</li>
+               <li>NASI MERAH</li>
+               <li>NASI PELANGI</li>
+               <li>NASI BASI</li>
+               
+
+           </ul>
+        </div>
+
+        <button class="accordion">DAGING</button>
+        <div class="panel">
+           <ul>
+               <li>AYAM BAKAR</li>
+               <li>AYAM PANGGANG</li>
+               <li>AYAM PANGGAN MADU</li>
+               <li>AYAM BAKAR RICA-RICA</li>
+               <li>AYAM GORENG</li>
+               <li>SAPI PANGGANG</li>
+               <li>STEAK</li>
+               <li>STEAK MADU</li>
+           </ul>
+        </div>
+
+        <button class="accordion">SEAFOOD</button>
+        <div class="panel">
+           <ul>
+               <li>LELE GORENG</li>
+               <li>KERANG HIJAU</li>
+               <li>KERANG MUTIARA</li>
+               <li>KERANG TIRAM</li>
+               <li>UDANG</li>
+               <li>KUDA LAUT</li>
+               <li>KEPITING</li>
+               <li>LOBSTER</li>
+               <li>CUMI-CUMI</li>
+               <li>GURITA</li>
+           </ul>
+        </div>
+
+        <button class="accordion">SOUP</button>
+        <div class="panel">
+           <ul>
+               <li>SOUP LENGKAP</li>
+               <li>SOUP KHAS JEPANG</li>
+               <li>SOUP MAKASSAR</li>
+           </ul>
+        </div>
+
+        <button class="accordion">SALAD</button>
+        <div class="panel">
+           <ul>
+               <li> SALAD LENGKAP</li>
+               <li>SALAD MAYO</li>
+               <li>SALAD KUAT</li>
+           </ul>
+        </div>
+
+        <button class="accordion">FLOAT</button>
+        <div class="panel">
+           <ul>
+               <li>CHOCOLATE FLOAT</li>
+               <li>STRAWBERY FLOAT</li>
+               <li>CAKE FLOAT</li>
+               <li>CERY FLOAT</li>
+               <li>BANANA FLOAT</li>
+               <li>VANILLA FLOAT</li>
+               <li>CAPUCHINO FLOAT</li>
+               <li>TIRAMISSU FLOAT</li>
+           </ul>
+        </div>
+
+        <button class="accordion">MINUMAN</button>
+        <div class="panel">
+           <ul>
+               <li>KOPI</li>
+               <li>TEH MANIS</li>
+               <li>TEH MACHA</li>
+               <li>TEH CINA</li>
+               <li>ES JERUK</li>
+               <li>ANEKA JUS</li>
+               <li>COCA-COLA</li>
+               <li>SPRITE</li>
+               <li>AOR MINERAL</li>
+
+           </ul>
+        </div>
+        <!-- end menu hidangan -->
+        <!-- data untuk memunculkan effek button setelah di klik  -->
+        <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                    } else {
+                    panel.style.maxHeight = panel.scrollHeight + "30px";
+                    } 
+                });
+                }
+        </script>
+        <!-- end data untuk memunculkan effek button setelah di klik  -->
+
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+
+        <marquee behavior="" direction="">
+            <h1 id="jalan">SELAMAT MENIKMATI</h1>
+            
+        </marquee>
+
+        <div class="footer">
+            <!-- MENU SEKUNDER -->
+            <ul class="menusekunder">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    
+                    <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <!-- END MENU SEKUNDER -->
+            <ul class="kontak">
+                    <li> <img src="gambar/fb.png" alt="">
+                        <li> <img src="" alt="">
+                            <a href="">FACEBOOK</a>
+                    </li>
+                    <li> <img src="gambar/wa.png" alt="">
+                        <li> <img src="" alt="">
+                        <a href="">WHATS UP</a>
+                    </li>
+                    <li> <img src="gambar/ig.png" alt="">
+                        <li> <img src="" alt="">
+                        <a href="">INSTAGRAM</a>
+                    </li>
+                </ul>
+            <img src="gambar/footer.jpg" class="gmbrkaki">
+        
+        
+
+        </div>
+    </div>  
+</body>
+</html>
